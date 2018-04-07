@@ -1,14 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <title>Loan Calculator</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+#loading, #results{
+  display: none;
+}
 
-  <title>Hello, world!</title>
+</style>
 </head>
 <body class="bg-dark">
   <div class="container">
@@ -41,9 +46,9 @@
             </div>
           </form>
           <!-- Loader Here -->
-          <!-- <div id="loading">
+          <div id="loading">
             <img src="img/loading.gif" />
-          </div> -->
+          </div>
           <!-- Results -->
           <div id="results" class="pt-4">
             <h5>Results</h5>
